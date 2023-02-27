@@ -1,5 +1,24 @@
 h1{
-    text-align: center;/*居中*/
+    text-align: center;/*居中в середине*/
      font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
      color: black;
 }
+body {  
+    margin: 0 auto;
+    background-color: #f1f1f1;
+ }
+ .T{
+      margin: 100px auto;/*горизонтально */
+      display: flex;/*вертикально в середине*/
+      font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-size: large;
+      background: white ;
+      width: 400px;
+      height: 150px;
+      padding: 50px;
+      border-radius: 10%;
+ }
+ .T p{
+      text-indent: 2em;/*пробелы в начале текста*/
+      align-self: center;/*горизонтально в середине 子元素*/
+ }
